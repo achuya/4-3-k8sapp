@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-config
+  namespace: 4-3-k8sapp
+data:
+  MYSQL_DATABASE: k8sappdb
+  MYSQL_USER: appuser
